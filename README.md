@@ -1,5 +1,15 @@
 # Oracle Cloud Infrastructure Terraform Module for Announcements 
 
+This repository contains Terraform modules which provisions and configures Oracle Cloud Infrastructure (OCI) Announcements Subscription, allowing users to receive OCI service updates and announcements via an OCI Notifications topic.
+
+## Features
+
+- Creates an Announcements Subscription for tenancy-wide notifications.
+
+- Supports language and timezone preferences for announcements.
+
+- Optionally applies filters to receive only specific announcement types.
+
 ## Pre-requisites
 
 Ensure you have the following before using this module:
@@ -48,6 +58,8 @@ To destroy the created resources, use:
 tofu destroy # or terraform destroy
 ```
 ## Documentation
+- [OCI Announcements](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/announcements.htm)
+- [OCI Notifications](https://docs.oracle.com/en-us/iaas/Content/Notification/Concepts/notificationoverview.htm)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/angeline-hilda/OCI-Announcements/blob/master/LICENSE) file for details.
