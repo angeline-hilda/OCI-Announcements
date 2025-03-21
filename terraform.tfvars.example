@@ -23,7 +23,7 @@ compartment_id =
 
 announcement_subscription_display_name = "navi_demo"
 announcement_subscription_description = "tenancy announcements"
-topic_id = "ocid1.onstopic.oc1.ap-mumbai-1."
+topic_id = "ocid1.onstopic.oc1.ap-mumbai-1.xxxxxxxxxxx"   # Replace with OCI Notifications Topic ID
 
 announcement_subscription_preferred_language = "en-US"
 announcement_subscription_preferred_time_zone = "Asia/Kolkata"
